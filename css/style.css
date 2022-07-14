@@ -391,13 +391,13 @@ button {
 .hero__counter-left {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    flex-basis: 200px;
 }
 
 .hero__counter-right {
     display: inline-flex;
     flex-direction: column;
-    width: 207px;
+    flex-basis: 207px;
 
 
 }
@@ -406,11 +406,13 @@ button {
     font-size: 31px;
     font-weight: 500;
     color: #F8F6FA;
+    margin-bottom: 8px;
 }
 
 .hero__counter-span_title {
     color: #F8F6FA;
     font-size: 13px;
+    margin-bottom: 8px;
 }
 
 .hero__counter-span {
