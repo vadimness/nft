@@ -247,13 +247,15 @@ button {
     display: inline-flex;
     cursor: pointer;
     border: initial;
+    background: initial;
     text-transform: uppercase;
+    border-radius: 2px;
   }
 
 .btn {
-padding: 15px 30px;
+padding: 15px 50px;
 background: var(--gradient);
-border-radius: 2px;
+color: #fff;
 }
 
 /* ========START  HEADER CSS ==========*/
@@ -322,11 +324,17 @@ padding: 50px 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   }
+  .btn-outline{
+  color: #F8F6FA;
+  border-color: currentColor;
+  padding: 15px 37px 14px 46px;
+  border: 1px solid rgba(235, 17, 170, 1);
+  }
 .hero__counter{
 display: flex;
-justify-content: space-around;
-align-items: center;
-width:100%;
+justify-content: space-between;
+align-items: center; 
+width:407px;
 height: 141px;
 background: rgba(46, 47, 64, 0.3);
 backdrop-filter: blur(4px);
@@ -336,14 +344,16 @@ margin-top: 63px;
 .hero__counter-left{
   display: flex;
   flex-direction: column;
+  width: 200px;
 }
-
 .hero__counter-right{
-display: flex;
+  display:inline-flex;
+  flex-direction: column;
+  width: 207px;
+
+
   }
   .hero__counter-count{
-    display: flex;
-    flex-direction: column;
     font-size: 31px;
     font-weight:500;
     color:#F8F6FA;
@@ -351,7 +361,6 @@ display: flex;
 .hero__counter-span_title{
   color:  #F8F6FA;
   font-size: 13px;
-  padding-bottom: 8px;
 }
 .hero__counter-span{
   color: #F8F6FA;
