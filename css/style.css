@@ -1,0 +1,397 @@
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlbHYjedg.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlSHYjedg.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlZHYjedg.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlYHYjedg.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlWHYg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlbHYjedg.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlSHYjedg.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlZHYjedg.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlYHYjedg.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlWHYg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlbHYjedg.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlSHYjedg.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlZHYjedg.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlYHYjedg.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlWHYg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlbHYjedg.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlSHYjedg.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* vietnamese */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlZHYjedg.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlYHYjedg.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/oswald/v40/TK3IWkUHHAIjg75cFRf3bXL8LICs1_Fv40pKlN4NNSeSASz7FmlWHYg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* ======== CSS START RESET==========*/
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ======== CSS END RESET==========*/
+
+/* ========MAIN CSS ==========*/
+
+:root {
+    --light-color: #fff;
+    --dark-color: #000;
+    --primary-hue: 350;
+    --secondary-hue: 10;
+    --primary-color: hsl(var(--primary-hue), 74%, 48%);
+    --secondary-color: hsl(var(--secondary-hue), 86%, 52%);
+    --primary-alfa-color: hsla(var(--primary-hue), 74%, 48%, 0.8);
+    --secondary-alfa-color: hsla(var(--secondary-hue), 86%, 52%, 0.8);
+    --sizeindex: calc(1vw + 1vh);
+    --gradient:linear-gradient(89.96deg, rgba(203, 71, 160, 0.2) 0.02%, rgba(105, 71, 203, 0.2) 49.47%, rgba(0, 255, 133, 0.2) 99.97%);
+    --transition: all 0.5s ease-in-out;
+  }
+
+* {
+    box-sizing: border-box;
+
+  }
+body{
+font-family: 'Oswald', sans-serif;
+
+}
+
+.container{
+max-width: 1110px;
+margin: 0 auto;
+padding: 0 15px;
+}
+a{
+text-decoration: none;
+display: inline-flex;
+color: inherit;
+}
+button {
+    color: inherit;
+    font: inherit;
+    display: inline-flex;
+    cursor: pointer;
+    border: initial;
+    text-transform: uppercase;
+  }
+
+.btn {
+padding: 15px 30px;
+background: var(--gradient);
+border-radius: 2px;
+}
+
+/* ========START  HEADER CSS ==========*/
+.header{
+  background-color: #371855;
+}
+.header .container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: var(--dark-color);
+padding: 50px 0;
+}
+.logo-name{
+    font-size:25px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color:#F8F6FA;
+  }
+  .logo{
+   margin-right: 15px;
+  }
+  .header__navbar{
+    display: flex;
+    align-items: center;
+  }
+  .header__navbar-menu li .active{
+    color:   #F8F6FA;
+    opacity:1;
+  }
+  .header__navbar-menu{
+    display:flex;
+    justify-content: flex-end;
+  }
+  .header__navbar-menu li{
+    margin-left:40px;
+  }
+  .header__navbar-menu li a{
+    color: #F8F6FA;
+    opacity: 0.6;
+    transition: var(--transition);
+  }
+  .header__navbar-menu li a:hover{
+    opacity:1;
+  }
+  .header__navbar .button{
+    margin-left: 40px;
+    color:#F5E8F3;
+  }
+  .hero-content{
+    max-width: 367px;
+  }
+  .hero__title{
+    font-size: 61px;
+    color:  #F8F6FA;;
+  }
+  .hero__text{
+    font-size: 16px;
+    color: #F8F6FA;
+    opacity: 0.6;
+    margin: 25px 0 35px 0;
+  }
+  .hero__span{
+   background: linear-gradient(to bottom, rgba(11, 236, 223)25%,rgba(10, 209, 124)75%,rgba(248, 246, 250)100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+.hero__counter{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width:100%;
+height: 141px;
+background: rgba(46, 47, 64, 0.3);
+backdrop-filter: blur(4px);
+border-radius: 2px;
+margin-top: 63px;
+}
+.hero__counter-left{
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__counter-right{
+display: flex;
+  }
+  .hero__counter-count{
+    display: flex;
+    flex-direction: column;
+    font-size: 31px;
+    font-weight:500;
+    color:#F8F6FA;
+    }
+.hero__counter-span_title{
+  color:  #F8F6FA;
+  font-size: 13px;
+  padding-bottom: 8px;
+}
+.hero__counter-span{
+  color: #F8F6FA;
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+
+.hero-counter-main{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 238px;
+background: rgba(213, 236, 255, 0.3);
+backdrop-filter: blur(12px);
+}
+.hero-count{
+  font-size:60px;
+  font-weight: 500;
+}
+.hero-count-text{
+  font-size: 25px;
+  text-align: center;
+}
+.hero-content-main{
+ display: flex;
+ align-items: center;
+ padding: 130px 0;
+} 
+.hero-content-image{
+  max-width: 50%;
+}
+.hero-pic:nth-child(2n+1){
+  margin-right: 27px;
+}
+.hero-pic:nth-child(-n+2){
+  margin-bottom: 20px;
+}
+.hero-content-title{
+  width: 432px;
+  height: 312;
+  margin-left: 117px;
+}
